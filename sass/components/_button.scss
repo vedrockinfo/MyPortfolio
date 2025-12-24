@@ -1,0 +1,14 @@
+@use "../abstract" as *;
+@use "sass:color";
+
+@function half($colWidth) {
+  @return $colWidth / 2;
+}
+
+@function oneThird($colWidth) {
+  @return $colWidth / 3;
+}
+
+@function oneFourth($colWidth) {
+  @return $colWidth / 4;
+}
